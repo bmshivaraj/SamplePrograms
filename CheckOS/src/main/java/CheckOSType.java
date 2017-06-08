@@ -22,7 +22,7 @@ public class CheckOSType {
         if (isWindows()) {
             System.out.println("This is Windows");
         } else if (isUnix()) {
-            System.out.println("This is Unix box.");
+            System.out.println("This is Unix or Linux box ...");
             
             //String[] command = { "service auditd "+ args[0] };
     		try {
